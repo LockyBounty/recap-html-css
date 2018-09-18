@@ -1,0 +1,22 @@
+body{
+
+}
+.banner {
+    display:grid;
+    grid-template-columns: 30% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+    background-image: linear-gradient(black,grey);
+}
+
+.banneritem {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.banneritem a{
+    text-decoration: none;
+    color: white;
+}
+
