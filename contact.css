@@ -84,3 +84,8 @@ form {
     font: bold 15px arial, sans-serif;
     text-shadow: none;
 }
+
+fieldset{
+    border-radius: 10px;
+    margin: 1px 4px 5px 4px;
+}
