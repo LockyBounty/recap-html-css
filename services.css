@@ -1,0 +1,44 @@
+.container1{
+    display:grid;
+    grid-template: 20% 20% 20% 20% 20%/ 20% 20% 20% 20% 20%;
+    background-image: linear-gradient(yellow,purple);
+    background-size: cover;
+    grid-gap:20px;
+
+    
+
+}
+.container2{
+    display:grid;
+    grid-template: repeat(5,20%)/repeat(5,20%);
+    background-image: linear-gradient(yellow,purple);
+    background-size: cover;
+
+    
+
+}
+
+.banner {
+    display:grid;
+    grid-area: 1/1/1/6;
+    grid-gap: 5px;
+    background-image: linear-gradient(black,grey);
+}
+.banneritem {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.banneritem a{
+    text-decoration: none;
+    color: white;
+}
+
+.sell{
+    background-color: azure;
+}
+.headtop{
+    background-color: blue;
+    color: white;
+}

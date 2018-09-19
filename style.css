@@ -38,3 +38,8 @@ body{
     display: grid;
     grid-template: repeat(5,20%)/repeat(5,20%);
 }*/
+
+.headtop{
+    background-color: blue;
+    color: white;
+}
