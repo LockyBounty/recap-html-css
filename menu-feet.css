@@ -1,44 +1,68 @@
 
+body{
+    background-color: rgb(39, 37, 37);
+}
+
 .main{
     background-image: linear-gradient(darkgrey,grey,white);
 }
 
-.banner {
-    display:grid;
-    grid-template-columns: 30% 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px;
-    grid-gap: 10px;
-    background-image: linear-gradient(black,grey);
-    position: sticky; /*banner not sticky*/
+.splitter{
+    height:50px;
 }
 
-.banneritem {
-    color: white;
+.navbar {
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-    margin-top: 15px;
+    padding: 14px 16px;
     text-decoration: none;
-}
-.banneritem a{
-    text-decoration: none;
-    color: white;
-}
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
 
 
 .mainimage{
-    background-image: url("images/contact.jpg");
-    height:500px;
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-image: url("images/server.jpeg");
+    height:100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
 }
-
-
+    .mainimage p{
+        text-align: justify;
+        background-color: rgb(39, 37, 37,0.8);
+        margin-top: 120px;
+        margin-left: 100px;
+        padding: 10px;
+        border-radius: 10%;
+        color: white;
+        height:250px;
+    }
+    
 .placeimage{
     display: grid;
 
     grid-template-columns: 1fr 1fr;
-    background-image: url(images/building.png);
+    background-image: url(images/office.jpg);
     height:500px;
     background-attachment: fixed;
     background-position: center;
@@ -54,6 +78,7 @@ iframe{
 .placetext{
    padding: 50px; 
    width: 400px;
+   margin-bottom: 20px;
 
 }
 .placetext p{
@@ -75,52 +100,5 @@ iframe{
     padding: 10px;
     border-radius: 15px;
     margin-right: 275px;
->>>>>>> bc9f277615510c2cf62c4b369b7dc2d2c40d9b2d
-}
-#site-content {
-	min-height: 100%;
-	min-height: 100vh;
-	padding-top: 65px;
-	position: relative;
-	z-index: 1;
 
-	-webkit-box-shadow: #000 0 7px 35px 0;
-	-moz-box-shadow: #000 0 7px 35px 0;
-	box-shadow: #000 0 7px 35px 0;
-  
-}
-
-#site-footer {
-	padding: 25px 0;
-	font-size: 85%;
-	background-color: #2A2A2A;
-	position: fixed;
-	z-index: -1;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-/* NOT NEEDED, THIS IS JUST FOR THE PEN */
-@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css);
-
-html, body {
-	padding: 0;
-	margin: 0;
-	background-color: #D1D1D1;
-}
-#site-content {
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url("images/contact.jpg");
-}
-
-#site-footer {
-	min-height: 20vw;
-	/* DID THIS SO YOU CAN SEE IT AUTOMATICALLY SCALE - SIMULATION RESPONSIVENESS */
-	/* RESIZE THE WINDOW AND THEN SCROLL VERITCALLY AGAIN */
-	background-size: cover;
-	background-position: center;
-	background-image: linear-gradient(gray, black);
 }
