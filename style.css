@@ -7,9 +7,6 @@ body{
     background-image: linear-gradient(darkgrey,grey,white);
 }
 
-.splitter{
-    height:50px;
-}
 
 .navbar {
     overflow: hidden;
@@ -17,6 +14,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 300;
   }
   
   .navbar a {
@@ -45,12 +43,13 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover; 
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%); 
 }
     .mainimage p{
         text-align: justify;
         background-color: rgb(39, 37, 37,0.8);
-        margin-top: 120px;
+        margin-top: 200px;
         margin-left: 100px;
         padding: 10px;
         border-radius: 10%;
@@ -63,20 +62,24 @@ body{
 
     grid-template-columns: 1fr 1fr;
     background-image: url(images/office.jpg);
-    height:500px;
+    height:120vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
 }
 
 iframe{
-    margin-top: 25px;
+    margin-top: 200px;
     margin-left: 25px;
+    border: white;
+    border-width: 3px;
 }
 
 .placetext{
-   padding: 50px; 
+   margin-top: 125px;
+    padding: 50px; 
    width: 400px;
    margin-bottom: 20px;
 
@@ -100,5 +103,4 @@ iframe{
     padding: 10px;
     border-radius: 15px;
     margin-right: 275px;
->>>>>>> bc9f277615510c2cf62c4b369b7dc2d2c40d9b2d
 }
