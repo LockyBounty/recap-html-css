@@ -60,6 +60,7 @@ body{
     
 .placeimage{
     display: grid;
+
     grid-template-columns: 1fr 1fr;
     background-image: url(images/office.jpg);
     height:500px;
@@ -99,4 +100,5 @@ iframe{
     padding: 10px;
     border-radius: 15px;
     margin-right: 275px;
+>>>>>>> bc9f277615510c2cf62c4b369b7dc2d2c40d9b2d
 }
