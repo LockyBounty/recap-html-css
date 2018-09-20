@@ -25,7 +25,9 @@
 
 
 .mainimage{
-    background-image: url("images/contact.jpg");
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url("images/server.jpeg");
     height:500px;
     background-attachment: fixed;
     background-position: center;
@@ -37,7 +39,7 @@
 .placeimage{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url(images/building.png);
+    background-image: url(images/office.jpg);
     height:500px;
     background-attachment: fixed;
     background-position: center;
@@ -53,6 +55,7 @@ iframe{
 .placetext{
    padding: 50px; 
    width: 400px;
+   margin-bottom: 20px;
 
 }
 .placetext p{
