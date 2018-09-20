@@ -1,41 +1,63 @@
 
+body{
+    background-color: rgb(39, 37, 37);
+}
+
 .main{
     background-image: linear-gradient(darkgrey,grey,white);
 }
 
-.banner {
-    display:grid;
-    grid-template-columns: 30% 1fr 1fr 1fr 1fr;
-    grid-template-rows: 50px;
-    grid-gap: 10px;
-    background-image: linear-gradient(black,grey);
-    position: sticky; /*banner not sticky*/
+.splitter{
+    height:50px;
 }
 
-.banneritem {
-    color: white;
+.navbar {
+    overflow: hidden;
+    background-color: rgb(39, 37, 37);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-    margin-top: 15px;
+    padding: 14px 16px;
     text-decoration: none;
-}
-.banneritem a{
-    text-decoration: none;
-    color: white;
-}
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
 
 
 .mainimage{
+    margin-top: 17px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-image: url("images/server.jpeg");
-    height:500px;
+    height:100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
 }
-
-
+    .mainimage p{
+        text-align: justify;
+        background-color: rgb(39, 37, 37,0.8);
+        margin-top: 120px;
+        margin-left: 100px;
+        padding: 10px;
+        border-radius: 10%;
+        color: white;
+        height:250px;
+    }
+    
 .placeimage{
     display: grid;
     grid-template-columns: 1fr 1fr;
