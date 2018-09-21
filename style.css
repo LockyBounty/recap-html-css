@@ -4,12 +4,6 @@ body{
 }
 
 
-
-.main{
-    background-image: linear-gradient(darkgrey,grey,white);
-}
-
-
 .navbar {
     overflow: hidden;
     background-color: rgb(39, 37, 37);
@@ -107,6 +101,7 @@ iframe{
    width: auto;;
    height: auto;
    margin-bottom: 20px;
+
 
 }
 .placetext p{
