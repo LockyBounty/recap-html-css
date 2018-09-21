@@ -81,7 +81,6 @@ body {
 /*footer in a flex box */
 footer {
     display: flex;
-    background: #603C8B;
     height: 35vh;
     flex-direction: row;
 
@@ -101,7 +100,7 @@ footer>strong {
     max-width: 100%;
     flex-grow:1;
     height: 100%;
-    background: #130b0b;
+    background-color: rgb(39, 37, 37)
     padding: 20px 20px;
     vertical-align: middle;
     align-items: center;

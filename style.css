@@ -3,6 +3,8 @@ body{
     background-color: rgb(39, 37, 37);
 }
 
+
+
 .main{
     background-image: linear-gradient(darkgrey,grey,white);
 }
@@ -18,6 +20,7 @@ body{
   }
   
   .navbar a {
+    margin-left:20px;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -44,25 +47,43 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    margin-left: 20px;
+    margin-right: 20px;
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%); 
 }
     .mainimage p{
         text-align: justify;
         background-color: rgb(39, 37, 37,0.8);
-        margin-top: 200px;
+        margin-top: 140px;
         margin-left: 100px;
         padding: 10px;
         border-radius: 10%;
         color: white;
-        height:250px;
+        height:auto;
     }
     
+.servicesimage{
+        background-image: url("images/server2.jpeg");
+        height:100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin-left: 20px;
+        margin-right: 20px;
+        clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%); 
+        margin-top: -100px;
+}
+
+
 .placeimage{
     display: grid;
-
+    margin-top: -100px;
+    margin-left: 20px;
+    margin-right: 20px;
     grid-template-columns: 1fr 1fr;
     background-image: url(images/office.jpg);
-    height:120vh;
+    height:100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,36 +92,104 @@ body{
 }
 
 iframe{
-    margin-top: 200px;
+    margin-top: 160px;
     margin-left: 25px;
     border: white;
     border-width: 3px;
+    height: 60%;
+    width: 100%;
 }
 
 .placetext{
-   margin-top: 125px;
+    color: black;
+   margin-top: 170px;
     padding: 50px; 
-   width: 400px;
+   width: auto;;
+   height: auto;
    margin-bottom: 20px;
 
 }
 .placetext p{
-    background-color: antiquewhite;
+    background-color: white;
     opacity:0.75;
     text-align: justify;
     display: block;
-    font-size: 20px;
+    
     padding: 10px;
-    border-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 
 }
 .placetext h2{
-    background-color: antiquewhite;
+    background-color: white;
     opacity:0.75;
     text-align: justify;
     display: block;
     font-size: 20px;
     padding: 10px;
-    border-radius: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     margin-right: 275px;
+}
+
+
+.contact{
+    background-image: url("images/fistbump.jpeg");
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left: 20px;
+    margin-right: 20px;
+    clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%); 
+    margin-top: -100px;
+}
+
+/*footer in a flex box */
+footer {
+    display: flex;
+    height: 35vh;
+    flex-direction: row;
+
+}
+
+footer ul,
+li {
+    list-style-type: none;
+}
+
+footer>strong {
+    padding: O O 10px O;
+}
+
+.flex-parent {
+    display: flex;
+    max-width: 100%;
+    flex-grow:1;
+    height: 100%;
+    background-color: rgb(39, 37, 37);
+    padding: 20px 20px;
+    vertical-align: middle;
+    align-items: center;
+}
+.flex-parent .flex-child1 {
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    padding-left: 5%;
+    margin: 0 0px;
+    width: 25%;
+    
+    vertical-align: middle;
+    color: #ffffff;
+}
+.flex-child {
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0 0px;
+    width: 25%;
+    vertical-align: middle;
+    color: #ffffff;
 }
