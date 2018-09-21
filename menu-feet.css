@@ -1,11 +1,32 @@
 @import url("https://fonts.googleappis.com/css?family=Raleway");
 @import url("https://fonts.googleappis.com/css?family=Oswald");
+@keyframes yourAnimation{
+    0%{
+        opacity: 0;
+        }
+    12%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+        
+}
+.content1 h1{
+    animation: yourAnimation 3s none 1s linear;
+    opacity:0;
+    animation-fill-mode:forwards; 
+    
+}
 
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .firstp {
@@ -18,44 +39,89 @@ html, body {
     background-attachment: fixed;
 }
 
-.firstp .inner{
+.firstp .inner {
     display: table-cell;
-    vertical-align:middle;
-    width:100%;
-    max-width:none;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
 
 }
-.content1{
-    max-width:500px;
+
+.content1 {
+    max-width: 500px;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 
 }
-.content h1 {
-    font-family: Raleway, sans-serif;
-    color:whitesmoke;
+
+.content1 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
     text-shadow: 0px 0px 300px #000;
-    font-size:500%;
+    font-size: 500%;
 }
-.btn{
+
+.btn {
     border-radius: 9px;
     font-family: Oswald, sans-serif;
     color: #036A81;
     padding: 10px 20px;
-    border:solid #036A81 3px;
+    border: solid #036A81 3px;
     text-transform: uppercase;
-    text-decoration:none;
+    text-decoration: none;
 
 }
-.btn:hover{
-    color:#fff;
+
+.btn:hover {
+    color: #fff;
     border: solid #fff 3px;
 
 }
 
 /*footer in a flex box */
-.footerp {
+footer {
     display: flex;
     background: #603C8B;
-    height: 30vh;
+    height: 35vh;
+    flex-direction: row;
+
+}
+
+footer ul,
+li {
+    list-style-type: none;
+}
+
+footer>strong {
+    padding: O O 10px O;
+}
+
+.flex-parent {
+    display: flex;
+    max-width: 100%;
+    flex-grow:1;
+    height: 100%;
+    background: #130b0b;
+    padding: 20px 20px;
+    vertical-align: middle;
+    align-items: center;
+}
+.flex-parent .flex-child1 {
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    padding-left: 5%;
+    margin: 0 0px;
+    width: 25%;
+    
+    vertical-align: middle;
+    color: #ffffff;
+}
+.flex-child {
+    font-family: Oswald, sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0 0px;
+    width: 25%;
+    vertical-align: middle;
+    color: #ffffff;
 }
