@@ -5,11 +5,7 @@ html, body {
 html {
     display: table;
     background: url(images/contact.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-
     margin: auto;
 }
 
@@ -28,7 +24,7 @@ body {
 
     
 }
-
+/*css de contact form + fieldset + button*/
 .contactdiv {
     /*background-color: cornflowerblue;*/
     background-image: linear-gradient(to bottom right, cornflowerblue, purple);
@@ -52,6 +48,9 @@ body {
         text-align:center;
         font-size: 100%;
         padding:20px;
+    }
+    .contactdiv img{
+        border-radius:15px;
     }
 
 form {

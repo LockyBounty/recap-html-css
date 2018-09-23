@@ -10,16 +10,16 @@
 
 <body>
     <header>
-        <h1 class="logo"><img src="images/Logo L&T.png" height="50px" width="auto"/></h1>
+        <h1 class="logo"><img src="images/Logo L&T.png" height="50px" width="auto" /></h1>
         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">products</a></li>
-                    <li><a href="#location">location</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">products</a></li>
+                <li><a href="#location">location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <label for="nav-toggle" class="nav-toggle-label">
             <span></span>
         </label>
@@ -33,8 +33,40 @@
         </div>
 
     </section>
-    <section class="secondp"></section>
-    <section class="thirthp"></section>
+    <section class="secondp">
+        <div class="content2">
+            <!--div class="content2-line1">
+                <p>Upload your videos on our secured platform  </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4e97g7_qSxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression.
+               </p>
+            </div-->
+            <div class="content2-line2">
+                 <div>
+                    <p>lorem    </p>
+                    <img src="images/handshake.jpg" height="160" width="220" />
+                </div>
+                <div>
+                    <p>lorem    </p>
+                    <img src="images/youguys.jpg" height="160" width="220" />
+                </div>
+                <div>
+                    <p>lorem    </p>
+                    <img src="images/thumbsup.jpg" height="160" width="220" />
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section class="thirthp">
+        <div class="content3">
+            <h1>Make the right decision</h1>
+        </div>
+    </section>
+    
     <section class="fourthp"></section>
     <!----section class="fifthp">
         <a name="location"></a>
@@ -50,7 +82,50 @@
 
         </div>
     </section-->
+    <section class="sixthp" id="contact">
+        <div></div>
+        <div class="content6">
+            <div>
+                <h1>CONTACT US</h1>
+                
+                <p class="sstitre">Got a question? We'd love to hear from you.<br> Send us a message and we'll respond as soon as possible!</p>
+                <img src="images/risitasphone.png" height="160" width="220" />
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <br>
+                        <legend>Contact</legend>
+                        Male<input type="radio" name="gender" value="male">
+                        Female<input type="radio" name="gender" value="female"><br>
+                        First name<br>
+                        <input type="text"><br>
+                        Last name<br>
+                        <input type="text"><br>
+                        Email<br>
+                        <input type="text"><br>
 
+                        Select your product<br> <select id="productspool" name="products">
+                            <option value="pro1">Pro I</option>
+                            <option value="pro2">Pro II</option>
+                            <option value="pro3">Pro III</option>
+                        </select><br>
+                        Concern<br> <select id="concernpool" name="concern">
+                            <option value="pro1">Information</option>
+                            <option value="pro2">Complain</option>
+                            <option value="pro3">Other</option>
+                        </select><br>
+                        Message<br> <textarea id="message" name="subject" placeholder="Write something..." rows="3" cols="23"></textarea><br>
+                        <div>
+                            <input type="submit" value="Submit" class="submit-button">
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </section>
     <footer>
 
         <div class="flex-parent-ft">

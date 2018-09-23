@@ -42,6 +42,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+    background-color: rgb(39, 37, 37);
 }
 
 
@@ -240,16 +241,80 @@ nav {
     }
 
 /*Second page here*/
-.content2 {
-    height: 200vh;
-    background-image: url();
-    background-color: #333;
-    background-size: cover;
+.secondp {
     display: flex;
+    height: 100vh;
+    width: 100%;
+    background: url(images/office.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 1, 100% 0%, 100% 80%, 0% 100%);
+    font-family: Oswald;
+    color: white;
+   
 }
 
 
-/*Place page down here*/
+.content2 {
+    display: flex;
+    height: 100%;
+    
+    flex-direction: row;
+}
+.content2 div {
+    
+    flex: 1;
+}
+.content2 img {
+    border-radius:5px;
+}
+/*.content2-line-1{
+    flex: 1;
+    padding:20px;
+    margin: auto;
+    text-align: center;
+    background-color: #333;
+    width:30%
+   
+}*/
+.content2-line-2 {
+    
+    padding: 20%;
+    margin: 0;
+    text-align: center;
+    width: 30%;
+    
+}
+
+/*Thirth page down here*/
+.thirthp {
+    display:flex;
+    height: 50vh;
+    width: 100%;
+    background: url(images/owl1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    flex-direction:row;
+}
+.content3 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    align-content: center;
+}
+    .content3 h1 {
+        
+        font-family: Raleway;
+        font-size: 300%;
+        color: white;
+    }
+
+
+
+/*Fourth page here*/
+
 iframe {
     margin-top: 160px;
     margin-left: 25px;
@@ -291,9 +356,110 @@ iframe {
         border-top-left-radius: 5px;
         margin-right: 275px;
     }*/
-/*Contact page down here*/
+/*Fifth page down here*/
+.fifthp {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: url(images/contact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(2 0, 100% 0%, 100% 100%, 0% 100%);
+    flex-direction: row;
+}
+ .content5{
 
+ }
+/*Sixth page down here*/
 
+.sixthp {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: url(images/contact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    flex-direction: row;
+    
+}
+
+.content6 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    align-content: center;
+    vertical-align: middle;
+    padding: 5%;
+    color: white;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 15%;
+    flex-wrap: wrap; /*wrap le contenu en mode responsive*/
+    align-items: center;
+}
+    .content6 img {
+        border-radius: 15px;
+        padding: 2%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content6 h1 {
+        font-family: Raleway;
+        font-size: 300%;
+        color: white;
+        
+        
+        align-items:center;
+    }
+
+    .content6 form {
+        
+        padding-bottom: 2%;
+        background-image: linear-gradient(to bottom right, cornflowerblue, purple);
+        border-radius: 5px;
+       
+        
+    }
+
+    .sstitre {
+        font-family:Oswald;
+    }
+.submit-button {
+    background: red;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-color: black;
+}
+
+    .submit-button:hover {
+        background: radial-gradient(green,yellow);
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        height: 50px;
+        width: 100px;
+        font: bold 15px arial, sans-serif;
+        text-shadow: none;
+    }
+
+fieldset {
+    border-radius: 10px;
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
 
 /*footer in a flex box */
 footer {
