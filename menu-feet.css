@@ -81,7 +81,6 @@ body {
 /*footer in a flex box */
 footer {
     display: flex;
-    background: #603C8B;
     height: 35vh;
     width:100%;
     flex-direction: row;
@@ -109,11 +108,18 @@ footer img{
     
     flex-grow:1;
     height: 100%;
+<<<<<<< HEAD
     background: #130b0b;
     padding: 2%;
     
     
     
+=======
+    background-color: rgb(39, 37, 37)
+    padding: 20px 20px;
+    vertical-align: middle;
+    align-items: center;
+>>>>>>> 1822fd8c6a714ca8bf6df61fe7cf291005e30d5f
 }
 .flex-child1 {
     font-family: Oswald, sans-serif;
