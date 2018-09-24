@@ -147,44 +147,43 @@ footer {
     display: flex;
     height: 35vh;
     flex-direction: row;
-
+    background-color: rgb(39, 37, 37);
 }
 
-footer ul,
-li {
-    list-style-type: none;
-}
+    footer ul,
+    li {
+        list-style-type: none;
+    }
 
-footer>strong {
-    padding: O O 10px O;
-}
-
-.flex-parent {
+.flex-parent-ft {
     display: flex;
     max-width: 100%;
-    flex-grow:1;
+    flex-grow: 1;
     height: 100%;
+    padding: 5% 5%;
     background-color: rgb(39, 37, 37);
-    padding: 20px 20px;
-    vertical-align: middle;
-    align-items: center;
 }
-.flex-parent .flex-child1 {
+
+.flex-child-ft1 {
     font-family: Oswald, sans-serif;
-    font-size: 13px;
-    padding-left: 5%;
+    font-size: 90%;
+    padding-top: 3%;
     margin: 0 0px;
-    width: 25%;
-    
-    vertical-align: middle;
+    width: 20%;
     color: #ffffff;
 }
-.flex-child {
+
+    .flex-child-ft1 img {
+        max-width: 25%; /* you can use % */
+        height: auto;
+        padding: 2%;
+    }
+
+.flex-child-ft1 {
     font-family: Oswald, sans-serif;
-    font-size: 13px;
-    padding: 0px;
+    font-size: 90%;
+    padding-top: 3%;
     margin: 0 0px;
     width: 25%;
-    vertical-align: middle;
     color: #ffffff;
 }
