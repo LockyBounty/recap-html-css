@@ -1,61 +1,198 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-    
-    
+
 <head>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="style.css" rel="stylesheet">
-<link href="contact.css" rel="stylesheet"/>
-<link href="place.css" rel="stylesheet"/>
-<link href="services.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="style.css" rel="stylesheet">
+    <link rel='shortcut icon' href='images/Logo L&T.ico' type='image/x-icon' />
+    <title>L&T Solutions</title>
 </head>
-    
-    
+
 <body>
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#location">Location</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-    </div>
-
-
-
-    <div>
-        <a name="home"></a>
-        <div class="mainimage">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dolor ipsum, accumsan et tellus ut, scelerisque laoreet lectus. Phasellus dapibus finibus arcu non lobortis. In ac leo pulvinar, porttitor metus at, scelerisque ex. Vestibulum odio dolor, facilisis quis gravida id, rutrum et mi. Vestibulum dapibus eros at magna scelerisque, sit amet dapibus libero iaculis. Aenean pulvinar et tellus sed tincidunt. Morbi id facilisis nulla. Proin tristique eros ac convallis aliquam. Maecenas rutrum pellentesque tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-            </p>
-        </div>
-    </div>
-
-    <a name="products"></a>
-    <div class="servicesimage">
-
-    </div>
-
-
-    <a name="location"></a>
-    <div class="placeimage">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.233599139302!2d4.355090950794312!3d50.84535836661202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xcbd18b1ea8412062!2sBeCode+Brussels!5e0!3m2!1sen!2sbe!4v1537362888142" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-        <div class="placetext">
-            <h2><img src="images/googlemappin.png" height="25px" ;>Location</h2>
-            <p>
-                Sed erat purus, malesuada sit amet varius sit amet, dapibus nec libero. Nullam varius facilisis mauris. Mauris dignissim commodo libero, ac dictum ipsum vehicula sed. Proin congue leo vitae urna accumsan gravida. Cras convallis nisl felis, vitae rhoncus turpis malesuada in. Sed laoreet vehicula dictum. Suspendisse ornare quis nisi in tempor. Aliquam placerat sapien erat, ut gravida dui commodo non. Quisque dui sem, ultrices et pharetra a, interdum id metus. Morbi sed nunc et nulla vehicula tincidunt.
-            </p>
+    <header>
+        <h1 class="logo"><img src="images/Logo L&T.png" height="50px" width="auto" /></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#products">products</a></li>
+                <li><a href="#location">location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+    <section class="firstp">
+        <div class="inner">
+            <div class="content1">
+                <h1>L&T<br /> Solutions</h1>
+                <a class="btn" href="#">Get started</a>
+            </div>
         </div>
 
-    </div>
+    </section>
+    <section class="secondp">
+        <div class="content2">
+            <div>
+                <p>Security</p>
+                <img src="images/handshake.jpg" />
+                <p>Il n’y a personne qui n’aime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même…</p>
+            </div><div>
+                <p>Efficiency</p>
+                <img src="images/youguys.jpg" />
+                <p>Il n’y a personne qui n’aime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même…</p>
+            </div><div>
+                <p>Support 24/7</p>
+                <img src="images/thumbsup.jpg" />
+                <p>Il n’y a personne qui n’aime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même…</p>
+            </div>
+
+        </div>
 
 
-    <a name="contact"></a>
-    <div class="contact">
+    </section>
+    <section class="thirthp">
+        <div class="content3">
+            <h1>Make the right<br /> decision</h1>
+        </div>
+    </section>
 
-    </div>
+    <section class="fourthp" id="products">
+        <div class="content4">
+            <div class="pricing">
+                <div class="pricingcol1">
+                    <div class="blue-head">
+                        PRO I<br>19,99 euros / Month
+                    </div>
+                    <div class="gray-col">
+                        diskspace : 200 GB
+                    </div>
+                    <div class="gray-col">
+                        sub-domain : 3
+                    </div>
+                    <div class="gray-col">
+                        MySQL database : 10
+                    </div>
+                    <div class="gray-col">
+                        Email addresses: 50
+                    </div>
+                    <div class="last-gray-row">
+                        <input type="button" value="ORDER NOW!" />
+                    </div>
+                </div>
+                <div class="pricingcol2">
+
+                    <div class="blue-head">
+                        PRO II<br>29,99 euros / Month
+                    </div>
+                    <div class="gray-col">
+                        diskspace : 500 GB
+                    </div>
+                    <div class="gray-col">
+                        sub-domain : 10
+                    </div>
+                    <div class="gray-col">
+                        MySQL database : 20
+                    </div>
+                    <div class="gray-col">
+                        Email addresses: 100
+                    </div>
+                    <div class="last-gray-row">
+                        <input type="button" value="ORDER NOW!" />
+                    </div>
+
+                </div>
+                <div class="pricingcol3">
+                    <div class="blue-head">
+                        PRO III<br>59,99 euros / Month
+                    </div>
+                    <div class="gray-col">
+                        diskspace : unlimited
+                    </div>
+                    <div class="gray-col">
+                        sub-domain : 20
+                    </div>
+                    <div class="gray-col">
+                        MySQL database : unlimited
+                    </div>
+                    <div class="gray-col">
+                        Email addresses: unlimited
+                    </div>
+                    <div class="last-gray-row">
+                        <input type="button" value="ORDER NOW!" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</section>
+
+
+    <section class="fifthp">
+        <div class="content5">
+            <div id="location" class="placeimage">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.233599139302!2d4.355090950794312!3d50.84535836661202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xcbd18b1ea8412062!2sBeCode+Brussels!5e0!3m2!1sen!2sbe!4v1537362888142" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="placetext">
+                <h2>Location</h2>
+                <p>Cantersteen 10, 1000 Bruxelles</p>
+                <p>
+                    Sed erat purus, malesuada sit amet varius sit amet, dapibus nec libero. Nullam varius facilisis mauris. Mauris dignissim commodo libero, ac dictum ipsum vehicula sed.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="sixthp" id="contact">
+        <div></div>
+        <div class="content6">
+            <div>
+                <h1>CONTACT US</h1>
+
+                <p class="sstitre">Got a question? We'd love to hear from you.<br> Send us a message and we'll respond as soon as possible!</p>
+                <img src="images/risitasphone.png" height="160" width="220" />
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <br>
+                        <legend>Contact</legend>
+                        Male<input type="radio" name="gender" value="male">
+                        Female<input type="radio" name="gender" value="female"><br>
+                        First name<br>
+                        <input type="text"><br>
+                        Last name<br>
+                        <input type="text"><br>
+                        Email<br>
+                        <input type="text"><br>
+
+                        Select your product<br> <select id="productspool" name="products">
+                            <option value="pro1">Pro I</option>
+                            <option value="pro2">Pro II</option>
+                            <option value="pro3">Pro III</option>
+                        </select><br>
+                        Concern<br> <select id="concernpool" name="concern">
+                            <option value="pro1">Information</option>
+                            <option value="pro2">Complain</option>
+                            <option value="pro3">Other</option>
+                        </select><br>
+                        Message<br> <textarea id="message" name="subject" placeholder="Write something..." rows="3" cols="23"></textarea><br>
+                        <div>
+                            <input type="submit" value="Submit" class="submit-button">
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </section>
     <footer>
 
         <div class="flex-parent-ft">
@@ -102,7 +239,6 @@
 
     </footer>
 
-
-
 </body>
+
 </html>
