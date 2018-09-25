@@ -13,19 +13,19 @@ _Project brought to you by Locky B. and Thomas N.,_
 
 A website fully responsive
 
-*Content:
-**Navigation bar
-**Home page
-**Presentation page
-**Location page
-**Contact page
-**Footer
+* Content:
+** Navigation bar
+** Home page
+** Presentation page
+** Location page
+** Contact page
+** Footer
 
 ## Inspiration websites:
 
-mega.nz
-byethost.com
-youtube
+* mega.nz
+* byethost.com
+* youtube
 
 ## Creation / Steps:
 
