@@ -5,19 +5,21 @@
 
 [Locky and Thomas website + responsive!](https://lockybounty.github.io/recap-html-css/)
 
+# Authors:
+
 _Project brought to you by Locky B. and Thomas N.,_
 
 ## What is it? What's in it?
 
 A website fully responsive
 
-* Content:
-** Navigation bar
-** Home page
-** Presentation page
-** Location page
-** Contact page
-** Footer
+*Content:
+**Navigation bar
+**Home page
+**Presentation page
+**Location page
+**Contact page
+**Footer
 
 ## Inspiration websites:
 
