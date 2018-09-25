@@ -43,7 +43,9 @@ body {
     width: 100vw;
     background-color: rgb(39, 37, 37);
 }
-
+body:not(.content6){
+    overflow: auto;
+  }
 
 /*Responsive Navbar without js here*/
 
@@ -417,7 +419,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: royalblue;
+    background-color: rgba(4, 20, 36, 0.9);
     color: white;
     font-size: 120%;
     font-weight: bold;
@@ -432,8 +434,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue;
-    background-color: white;
+    color: rgba(4, 20, 36);
+    background-color: rgba(255, 255, 255, 0.85);
     grid-gap: 0px;
     border-style: solid;
     border-color: grey;
@@ -445,8 +447,8 @@ nav {
     text-decoration: none;
     border-radius: 5px;
     font-family: Arial;
-    color: white;
-    background-image: linear-gradient(to bottom, lightgreen, green);
+    color: rgba(255, 255, 255, 0.85);
+    background-image: linear-gradient(to bottom, rgb(18, 108, 199), rgb(9, 46, 83));
     padding: 10px;
 }
 
@@ -455,7 +457,7 @@ nav {
     align-items: center;
     justify-content: center;
     color: blue;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.85);
     grid-gap: 0px;
     border-style: solid;
     border-color: grey;
@@ -476,6 +478,15 @@ nav {
     clip-path: polygon(0 2%, 100% 0%, 100% 97%, 0% 100%);
 }
 
+@media screen and (max-width: 768px) {
+    .content5 {
+        flex-direction: column;
+    }
+    .placetext{
+        display: none;
+    }
+}
+
 .content5 {
     display: flex;
     flex-direction: row;
@@ -486,9 +497,7 @@ nav {
 }
 
     .content5 > div {
-        max-width: 40%;
         flex: 1;
-        
         margin: auto;
         padding: 5%;
         font-family: Oswald, sans-serif;
@@ -507,7 +516,7 @@ nav {
 iframe {
     margin: auto;
     border-radius: 10px;
-    max-height: 50%;
+    max-height: 10%;
     max-width: 100%;
 }
 
@@ -572,7 +581,7 @@ iframe {
 
     .content6 form {
         padding-bottom: 2%;
-        background-image: linear-gradient(to bottom right, cornflowerblue, purple);
+        background-image: linear-gradient(to bottom right, rgb(90, 115, 161,0.75), rgb(109, 123, 150,0.75));
         border-radius: 5px;
     }
 
@@ -581,7 +590,7 @@ iframe {
 }
 
 .submit-button {
-    background: red;
+    background: rgb(35, 75, 150);
     color: white;
     border-style: outset;
     border-color: #0066A2;
@@ -596,7 +605,7 @@ iframe {
 }
 
     .submit-button:hover {
-        background: radial-gradient(green,yellow);
+        background: radial-gradient(rgb(35, 75, 150),rgb(12, 36, 80));
         color: white;
         border-style: outset;
         border-color: #0066A2;
