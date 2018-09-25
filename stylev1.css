@@ -57,7 +57,7 @@ body{
     }
     
 .servicesimage{
-        background-image: url("images/server2.jpg");
+        background-image: url("images/server2.jpeg");
         height:100vh;
         background-attachment: fixed;
         background-position: center;
@@ -69,12 +69,6 @@ body{
         margin-top: -100px;
 }
 
-fieldset{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
 
 .placeimage{
     display: grid;
@@ -147,36 +141,6 @@ iframe{
     clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%); 
     margin-top: -100px;
 }
-.submit-button {
-    background: red;
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 50px;
-    width: 100px;
-    font: bold 15px arial, sans-serif;
-    text-shadow: none;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px  solid;
-    border-color: black;
-}
-
-.submit-button:hover{
-    background: radial-gradient(green,yellow);
-    color: white;
-    border-style: outset;
-    border-color: #0066A2;
-    height: 50px;
-    width: 100px;
-    font: bold 15px arial, sans-serif;
-    text-shadow: none;
-}
-fieldset{
-    background-color: white;
-    opacity:0.75;
-}
-
 
 /*footer in a flex box */
 footer {
