@@ -22,8 +22,8 @@ A website fully responsive
 > * Footer
 
 ## Screenshots :
-![Alt text](images/L&T Solutions -normal2.png?raw=true "Normal 1st page")
-![Alt text](images/L&T Solutions -responsive1.png??raw=true "Resonsive 1st page"")
+![Alt text](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-normal2.png "Normal 1st page")
+![Alt text](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-%20responsive1.png "Resonsive 1st page"")
 
 
 ## Inspiration websites:
