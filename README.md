@@ -25,8 +25,7 @@ A website fully responsive
 Normal:
 ![Alt text](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-normal2.png "Normal 1st page")
 Responsive:
-![Alt text](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-%20responsive1.png "Resonsive 1st page"")
-![Settings Window](https://raw.github.com/ryanmaxwell/iArrived/master/Screenshots/Settings.png)
+![Settings Window](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-%20responsive1.png)
 
 
 ## Inspiration websites:
