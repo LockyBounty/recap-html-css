@@ -14,12 +14,17 @@ _Project brought to you by Locky B. and Thomas N.,_
 A website fully responsive
 
 * Content:
-** Navigation bar
-** Home page
-** Presentation page
-** Location page
-** Contact page
-** Footer
+> * Navigation bar
+> * Home page
+> * Presentation page
+> * Location page
+> * Contact page
+> * Footer
+
+## Screenshots :
+![Alt text](images/L&T Solutions -normal2.png?raw=true "Normal 1st page")
+![Alt text](images/L&T Solutions -responsive1.png??raw=true "Resonsive 1st page"")
+
 
 ## Inspiration websites:
 
@@ -44,11 +49,11 @@ A website fully responsive
 * Because we finished the main layout of the website relatively early we had plenty of time to fix minor problems and improve aesthetics. There are still many small things that we could add to make the site more appealing but we are happy with how the site looks now.
 
 ## Features:
-** We made use of parallax scrolling for our background images. 
-**Flexboxes and grids were used throughout the page to lay out content. 
-**We used sticky on our nav bar and also had a different layout for the nav bar when the screen is on a mobile resolution.
-**A logo generator was used to creature an image for our logo that we implemented on the page as well as next to the title in the tab. 
-**iframe was used to implement a Google Map that we used to display the location.
+> * We made use of parallax scrolling for our background images. 
+> * Flexboxes and grids were used throughout the page to lay out content. 
+> * We used sticky on our nav bar and also had a different layout for the nav bar when the screen is on a mobile resolution.
+> * A logo generator was used to creature an image for our logo that we implemented on the page as well as next to the title in the tab. 
+> * iframe was used to implement a Google Map that we used to display the location.
 
 ## Material:
 
