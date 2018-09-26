@@ -22,10 +22,14 @@ A website fully responsive
 > * Footer
 
 ## Screenshots :
+
 Normal:
+
 ![Alt text](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-normal2.png "Normal 1st page")
+
 Responsive:
-![Settings Window](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-%20responsive1.png)
+
+> ![Settings Window](https://github.com/LockyBounty/recap-html-css/blob/master/images/L%26T%20Solutions%20-%20responsive1.png)
 
 
 ## Inspiration websites:
